@@ -1,0 +1,436 @@
+
+    {
+      "tag": "Allergy",
+      "patterns": ["Allergy"],
+      "responses": ["nasal congestion","itchy and watery eyes","sneezing","stuffy or runny nose","scratchy or sore throat","throat clearing","cough from postnasal drip"]
+    },
+    {
+      "tag": "anemia",
+      "patterns": ["anemia"],
+      "responses": ["Feel tired or lightheaded (sometimes with fainting)","Weakness","Fatigue","easily have decreased energy","appear pale","develop palpitations or rapid heart rate","Experience shortness of breath"]
+    },
+    {
+      "tag": "cold/flu",
+      "patterns": ["cold/flu"],
+      "responses": ["Headaches", "body aches", "fever", "flu-like symptoms", "Nasal congestion", "runny nose",  "sneezing", "Cough","Sore throat"]
+    },
+    {
+      "tag": "asthama",
+      "patterns": ["asthama"],
+      "responses": ["shortness of breath", "chest pain", "cough"]
+    },
+    {
+      "tag": "alzheimers",
+      "patterns": ["alzheimers"],
+      "responses": ["loss of orientation (to person, place, or time)","agitation","irritability","quarrelsomeness",  "diminishing ability to care for him- or herself and to dress appropriately."]
+    },
+    {
+      "tag": "pregnancy",
+      "patterns": ["pregnancy"],
+      "responses": ["absence of menstrual periods", "breast swelling and tenderness","Food cravings"]
+    },
+    {
+      "tag": "hyperthyroid",
+      "patterns": ["hyperthyroid"],
+      "responses": ["a rapid heart rate", "excessive sweating", "intolerance to heat", "tremor", "nervousness", "agitation", "fatigue", "weight loss", "hair loss", "increased appetite", "problems with concentration", "frequent bowel movements", "irregular or decreased menstrual blood flow in women"]
+    },
+    {
+      "tag": "hypothyroid",
+      "patterns": ["hypothyroid"],
+      "responses": ["fatigue", "depression", "mild weight gain", "cold intolerance", "sleepiness", "constipation dry and coarse hair", "dry skin", "muscle cramps","Blood cholesterol levels may be elevated."]
+    },
+    {
+      "tag": "diabetes",
+      "patterns": ["diabetes"],
+      "responses": ["dehydration","hunger","increased urination", "increased thirst."]
+    },
+    {
+      "tag": "diabetes",
+      "patterns": ["HIV AIDS"],
+      "responses": ["fever", "swollen lymph nodes", "joint and muscle aches","sore throat","chills", "night sweats","mouth ulcers"]
+    },
+    {
+      "tag": "high blood pressure",
+      "patterns": ["high blood pressure"],
+      "responses": ["dizziness, shortness of breath", "headache", "blurred vision",  "nosebleeds", "blood in the urine", "fatigue", "chest pain,"]
+    },
+    {
+      "tag": "Rheumatoid Arthritis",
+      "patterns": ["Rheumatoid Arthritis"],
+      "responses": ["aches stiffness", "muscle aches", "low-grade fever", "fatigue", "lack of appetite", "loss of energy","Joints can become warm, swollen, reddened, painful"]
+    },
+    {
+      "tag": "hepatitis B",
+      "patterns": ["hepatitis B"],
+      "responses": ["fatigue","loss of appetite","nausea","jaundice (yellowing of the skin and eyes)", "pain in the upper right abdomen (due to the inflamed liver)."]
+    },
+    {
+      "tag": "Dengue",
+      "patterns": ["Dengue"],
+      "responses": ["headache", "fever", "exhaustion", "severe muscle joint pain", "swollen lymph nodes","rash", "fever", "itchy rash","headache"]
+    },
+    {
+      "tag": "Malaria",
+      "patterns": ["Malaria"],
+      "responses": ["fever and chills","headaches,nausea and vomiting", "general weakness and body aches"]
+    },
+    {
+      "tag": "Chicken Pox",
+      "patterns": ["Chicken Pox"],
+      "responses": ["general weakness", "fever up to 102 F", "red spots that start on the same day or so as the fever"]
+    },
+    {
+      "tag": "jaundice",
+      "patterns": ["jaundice"],
+      "responses": ["Yellow discoloration of the skin","mucous membranes and the whites of the eyesLight-colored skin ","Poor feeding","Lethargy/excessive sleepiness","Changes in muscle tone (either listless or stiff with arching of the back)","High-pitched crying","Seizures"]
+    },
+    {
+      "tag": "Diarrhea",
+      "patterns": ["Diarrhea"],
+      "responses": ["bowel movements are frequent watery", "no signs of inflammation" , "cramping abdominal pain"]
+    },
+    {
+      "tag": "cataract",
+      "patterns": ["cataract"],
+      "responses": ["decrease in clarity of vision, not fully correctable with glasses","loss of contrast sensitivity","Disturbing glare in light"]
+    },
+    {
+      "tag": "pneumonia",
+      "patterns": ["pneumonia"],
+      "responses": ["fever,chills","cough","shortness of breath","fatigue."]
+    },
+    {
+      "tag": "Urinary Retention",
+      "patterns": ["Urinary Retention"],
+      "responses": ["inability to urinate","painful, urgent need to urinate","pain or discomfort in the lower abdomen","bloating of the lower abdomen"]
+    },
+    {
+      "tag": "Insomnia",
+      "patterns": ["Insomnia"],
+      "responses": ["Waking up unrefreshed from lack of sleep","Daytime sleepiness","fatigue", "Mood changes", "Poor concentration","attention Anxiety","Headaches","Lack of energy","Increased errors and mistakes"]
+    },
+    {
+      "tag": "Sinus Infection",
+      "patterns": ["Sinus Infection"],
+      "responses": ["sinus headache","facial tenderness","pressure or pain in the sinuses, in the ears and teeth","fever","cloudy discolored nasal or postnasal drainage","feeling of nasal stuffiness","sore throat,cough", "occasionally facial swelling"]
+    },
+    {
+      "tag": "hepatitis c",
+      "patterns": ["hepatitis c"],
+      "responses": ["fatigue","loss of appetite","muscle aches","fever"]
+    },
+    {
+      "tag": "mumps",
+      "patterns": ["mumps"],
+      "responses": ["swollen, painful salivary glands", "fever", "headache", "fatigue","appetite loss."]
+    },
+    {
+      "tag": "measles",
+      "patterns": ["measles"],
+      "responses": ["dry cough","conjunctivitis","runny nose (coryza)", "high fever."]
+    },
+    {
+      "tag": "botulism",
+      "patterns": ["botulism"],
+      "responses": ["double vision,blurred vision,drooping eyelids","slurred speech","difficulty swallowing","dry mouth","muscle weakness"]
+    },
+    {
+      "tag": "mad cow disease",
+      "patterns": ["mad cow disease"],
+      "responses": ["rapid mental deterioration"]
+    },
+    {
+      "tag": "meningetis",
+      "patterns": ["meningetis"],
+      "responses": ["sudden fever,headache","vomiting","visual sensitivity to light","stiff neck and back","confusion,drowsiness,unsteady gait","irritability","loss of consciousness","poor responsiveness","seizures","muscle weakness","sudden severe dementia", "memory loss"]
+    },
+    {
+      "tag": "indigestion",
+      "patterns": ["indigestion"],
+      "responses": ["upper abdominal pain or discomfort:","belching","nausea","vomiting","abdominal bloating","feeling full after eating only a small amount of food (early satiety)", "andabdominal distention"]
+    },
+    {
+      "tag": "constipation",
+      "patterns": ["constipation"],
+      "responses": ["Infrequent bowel movements","Straining when going to the bathroom","Hard and/or small feces","Sense of incomplete evacuation after going to the bathroom","Lower abdominal discomfort","Abdominal bloating, occasionally distension","Anal bleeding or fissures from the trauma caused by hard feces","Occasionally diarrhea due to obstruction of the colon by hard stool","Rarely, colonic perforation","Psychological distress and/or obsession with having to go to the bathroom","Possible aggravation of diverticular disease","hemorrhoids and rectal prolapse"]
+    },
+    {
+      "tag": "appendicitis",
+      "patterns": ["appendicitis"],
+      "responses": ["abdominal pain","loss of appetite","nausea and vomiting","fever", "andabdominal tenderness."]
+    },
+    {
+      "tag": "Anxiety Disorder",
+      "patterns": ["Anxiety Disorder"],
+      "responses": ["restlessness or feeling edgy","becoming tired easily, fatigue","trouble concentrating, that may also appear as memory or attention problems","feeling as if the mind is going blank","irritability","muscle tension","headaches","sleep problems"]
+    },
+    {
+      "tag": "crohn's disease",
+      "patterns": ["crohn's disease"],
+      "responses": ["Abdominal pain","Diarrhea","Vomiting","Fever","Bloody diarrhea","Anal fistulae","Perirectal abscesses","Weight loss"]
+    },
+    {
+      "tag": "narcolepsy",
+      "patterns": ["narcolepsy"],
+      "responses": ["Excessive daytime sleepiness","Cataplexy Hypnagogic", "hallucinations","Sleep paralysis","Disturbed nocturnal sleep","Automatic behavior","blurred vision, double vision, or droopy eyelids"]
+    },
+    {
+      "tag": "cystinuria",
+      "patterns": ["cystinuria"],
+      "responses": ["Hematuria - blood in the urine","Flank pain - pain in the side, due to kidney pain","Renal colic - intense, cramping pain due to stones in the urinary tract","Obstructive uropathy - urinary tract disease due to obstruction","Urinary tract infections"]
+    },
+    {
+      "tag": "prostatitis",
+      "patterns": ["prostatitis"],
+      "responses": ["Painful, difficult and/or frequent urinating","Blood in the urine","Groin pain, rectal pain", "abdominal pain and/or low back pain","Fever and chills","Malaise and body aches","Urethral discharge","Painful ejaculation or sexual dysfunction"]
+    },
+    {
+      "tag": "Angina",
+      "patterns": ["Angina"],
+      "responses": ["chest pressure that radiates down the arm, into the neck or jaw",  "shortness of breath and sweating","pain heaviness,tightness and ache fullness"]
+    },
+    {
+      "tag": "west nile virus",
+      "patterns": ["west nile virus"],
+      "responses": ["fever, headache", "body aches", "skin rash, and swollen lymph nodes","Severe symptoms and signs may include stiff neck, sleepiness, disorientation, coma, tremors, convulsions","paralysis"]
+    },
+    {
+      "tag": "Staph Infection",
+      "patterns": ["Staph Infection"],
+      "responses": ["red,swollen, and tender or painful","Drainage or pus is common","When staph is in the blood (bacteremia or sepsis), it can cause high fevers, chills, and low blood pressure"]
+    },
+    {
+      "tag": "Macular Degeneration(Age-Related Type)",
+      "patterns": ["Macular Degeneration(Age-Related Type)"],
+      "responses": ["common early sign is blurred vision"]
+    },
+    {
+      "tag": "Retinal detachment",
+      "patterns": ["Retinal detachment"],
+      "responses": ["Flashing lights and floaters"]
+    },
+    {
+      "tag": "Glaucoma",
+      "patterns": ["Glaucoma"],
+      "responses": ["haziness of vision and see haloes around lights, especially in the morning"]
+    },
+    {
+      "tag": "hysterectomy",
+      "patterns": ["hysterectomy"],
+      "responses": ["heavy periods","pelvic painp","rolapse of the uterus","cancer of the womb, ovaries or cervix"]
+    },
+    {
+      "tag": "yeast infection",
+      "patterns": ["yeast infection"],
+      "responses": ["a vaginal discharge that is typically thick, odorless, whitish-gray in color."]
+    },
+    {
+      "tag": "anorexia",
+      "patterns": ["anorexia"],
+      "responses": ["underweight",  "worsen depression social withdrawal","irritable and easily upset","Sleep  disrupted","lead to fatigue during the day","Attention and concentration can decrease"]
+    },
+    {
+      "tag": "chronic obstructive pulmonary disease 5",
+      "patterns": ["chronic obstructive pulmonary disease 5"],
+      "responses": ["cough","chest discomfort","shortness of breath","wheezing"]
+    },
+    {
+      "tag": "emphysema",
+      "patterns": ["emphysema"],
+      "responses": ["shortness of breath and wheezing"]
+    },
+    {
+      "tag": "boils",
+      "patterns": ["boils"],
+      "responses": ["tiny areas of infection in the base of the area of skin from which hair grows"]
+    },
+    {
+      "tag": "keloid scar",
+      "patterns": ["keloid scar"],
+      "responses": ["raised and look shiny and dome-shaped, ranging in color from pink to red"]
+    },
+    {
+      "tag": "rosacea",
+      "patterns": ["rosacea"],
+      "responses": ["acial flushing,blushing","skin redness (erythema),burning","red bumps and pustules","small cysts", "thickening of the facial tissue, especially the nose."]
+    },
+    {
+      "tag": "shingles(herpes zoster)",
+      "patterns": ["shingles(herpes zoster)"],
+      "responses": ["one-sided stabbing pain","tingling, itching, burning, or stinging sensation that precedes the appearance of the rash by a few days","headache","fever and chills","nausea","body aches","fluid-filled blistering red rash typically on the torso or face."]
+    },
+    {
+      "tag": "dandruff",
+      "patterns": ["dandruff"],
+      "responses": ["Reddish, scaly plaques appear in the eyebrows, on the forehead, in the ear canal, on the folds of skin that extend from the nostril to the commissure of the lips"]
+    },
+    {
+      "tag": "acne",
+      "patterns": ["acne"],
+      "responses": ["uninflamed blackheads","pus-filled pimple", "large, red and tender bumps."]
+    },
+    {
+      "tag": "common wart",
+      "patterns": ["common wart"],
+      "responses": ["fleshy, painless growth on the skin"]
+    },
+    {
+      "tag": "Scleroderma",
+      "patterns": ["Scleroderma"],
+      "responses": ["redness, swelling, tenderness, itching","pain that can lead to skin tightness or hardening"]
+    },
+    {
+      "tag": "Lichen planus",
+      "patterns": ["Lichen planus"],
+      "responses": ["itching varies from mild to severe","bumps at first are big in diameter, with angular borders and a violet colour"]
+    },
+    {
+      "tag": "Dementia",
+      "patterns": ["Dementia"],
+      "responses": ["simple forgetfulness, losing items","problems performing tasks or activities that were previously done without effort in old age"]
+    },
+    {
+      "tag": "hives",
+      "patterns": ["hives"],
+      "responses": ["welts flare, itch, swell, and go away in a matter of minutes to hours, only to appear elsewhere."]
+    },
+    {
+      "tag": "bulimia nervosa",
+      "patterns": ["bulimia nervosa"],
+      "responses": ["bingeing and purging",  "sore throat", "discolored, deteriorating teeth", "abdominal pain/cramping ","bloating",  "repeated vomiting", "swollen salivary glands","constipation","dehydration", "dry skin","thinning hair"]
+    },
+    {
+      "tag": "erectile dysfunction",
+      "patterns": ["erectile dysfunction"],
+      "responses": ["Penile erection occurs, but the penis does not remain hard enough for completion of sex","Penile erections are not hard enough for penetration","There is an inability to obtain a penile erection","One can still achieve an orgasm and ejaculate with erectile dysfunction"]
+    },
+    {
+      "tag": "Enlarged Prostate Gland",
+      "patterns": ["Enlarged Prostate Gland"],
+      "responses": ["slow flow of urine",  "need to urinate urgently" , "difficulty starting the urinary stream", "urinary tract infections", "blockage of the urethra"]
+    },
+    {
+      "tag": "Dysthymia (Persistent Depressive Disorder)",
+      "patterns": ["Dysthymia (Persistent Depressive Disorder)"],
+      "responses": ["Loss of appetite or excessive hunger","Insomnia or excess sleepiness","Fatigue or other physical symptoms","slowness in activity and thought","Low self-esteem/feelings of inadequacy","Lack of concentration or making decisions","Hopelessness"]
+    },
+    {
+      "tag": "panic attack",
+      "patterns": ["panic attack"],
+      "responses": ["racing or pounding heartbeat (palpitations)","chest pains","stomach upset","dizziness, lightheadedness, nausea","hyperventilation","difficulty breathing", "a sense of feeling smothered","a choking sensation","hand tingling or numbness","hot flashes/sweating or cold flashes/chills","trembling and shaking","dreamlike sensations or perceptual distortions like a feeling of detachment","terror, a sense that something unimaginably terrible is about to occur and one is powerless to prevent it","a need to escape","worrying about not knowing how to control their symptoms", "leading to them doing something embarrassing","fear of dying"]
+    },
+    {
+      "tag": "bipolar disorder",
+      "patterns": ["bipolar disorder"],
+      "responses": ["elevated, expansive, or irritable mood","racing thoughts","pressured speech (rapid, excessive, and frenzied speaking)","decreased need for sleep","grandiose ideas (for example, false beliefs of superiority or failures)","tangential speech (repeatedly changing conversational topics to topics that are hardly related)","restlessness/increased goal-directed activity","impulsivity", "poor judgment or engaging in risky activity (like spending sprees, promiscuity, or excess desire for sex)"]
+    },
+    {
+      "tag": "Indigestion(Dyspepsia)",
+      "patterns": ["Indigestion(Dyspepsia)"],
+      "responses": ["upper abdominal pain or discomfort (above or around the navel)","belching","nausea (with or without vomiting)","abdominal bloating (the sensation of abdominal fullness without visible distention)","early satiety (the sensation of fullness after a very small amount of food)","abdominal distention (visible swelling as opposed to bloating)", "lower chest pain"]
+    },
+    {
+      "tag": "motion sickness",
+      "patterns": ["motion sickness"],
+      "responses": ["feeling of uneasiness followed by cold sweats",  "dizziness ","pale skin",  "increased saliva production","headache and fatigue" ,"Nausea"  ,"vomiting"]
+    },
+    {
+      "tag": "respiratory acidosis",
+      "patterns": ["respiratory acidosis"],
+      "responses": ["fatigue or drowsiness","becoming tired easily","confusion","shortness of breath","sleepiness","headache"]
+    },
+    {
+      "tag": "metabolic acidosis",
+      "patterns": ["metabolic acidosis"],
+      "responses": ["rapid and shallow breathing"," confusion ","fatigue", "headaches", "leepiness", "lack of appetite", "jaundice","increased heart rate","breath that smells fruity which is a sign of diabetic acidosis (ketoacidosis)"]
+    },
+    {
+      "tag": "acute respiratory distress syndrome",
+      "patterns": ["acute respiratory distress syndrome"],
+      "responses": ["labored and rapid breathing","muscle fatigue and general weakness","low blood pressure","discolored skin or nailsa dry, hacking cough","fever","headaches","fast pulse rate","mental confusion"]
+    },
+    {
+      "tag": "Addison's disease",
+      "patterns": ["Addison's disease"],
+      "responses": ["weakness in the muscles","fatigue and tiredness","darkening in skin color","weight loss or decreased appetite","a decrease in heart rate or blood pressure","low blood sugar levels","fainting spells","sores in the mouth","cravings for salt","nausea","vomiting","irritability or depression"]
+    },
+    {
+      "tag": "Addisonian crisis",
+      "patterns": ["Addisonian crisis"],
+      "responses": ["mental status changes (confusion, fear, or restlessness)","loss of consciousness","high fever","sudden pain in the lower back, belly, or legs"]
+    },
+    {
+      "tag": "beriberi",
+      "patterns": ["beriberi"],
+      "responses": ["shortness of breath during physical activity","waking up short of breath","rapid heart rate","swollen lower legs"]
+    },
+    {
+      "tag": "dry beriberi",
+      "patterns": ["dry beriberi"],
+      "responses": ["decreased muscle function", "particularly in the lower legs","tingling or loss of feeling in the feet and hands","pain","mental confusion","difficulty in speaking","vomiting","involuntary eye movement","paralysis"]
+    },
+    {
+      "tag": "thalamus and hypothalamus",
+      "patterns": ["thalamus and hypothalamus"],
+      "responses": ["confusion","memory loss","loss of muscle coordination","visual problems such as rapid eye movement and double vision"]
+    },
+    {
+      "tag": "Bird Flu",
+      "patterns": ["Bird Flu"],
+      "responses": ["cough","diarrhea","respiratory difficulties","fever (over 100.4°F or 38°C)","headache","muscle achesmalaise","runny nose","sore throat"]
+    },
+    {
+      "tag": "bone cancer",
+      "patterns": ["bone cancer"],
+      "responses": ["pain and swelling in the affected bone","spalpable hard mass in the long bones of the limbs","feeling tired or fatigued","easily broken bones","weight loss"]
+    },
+    {
+      "tag": "bone tumour",
+      "patterns": ["bone tumour"],
+      "responses": ["dull ache in the affected bone weakened bone leading to severe pain"]
+    },
+    {
+      "tag": "bronchiolitis",
+      "patterns": ["bronchiolitis"],
+      "responses": ["shortness of breath","wheezing bluish","appearance of the skin from lack of oxygen","crackling or rattling sounds heard in the lungs","fatigue","ribs that appear sunken during attempts to inhale (in children)","nasal flaring (in babies)","fast breathing","cough"]
+    },
+    {
+      "tag": "tinnitus",
+      "patterns": ["tinnitus"],
+      "responses": ["Ringing in Ears"]
+    },
+    {
+      "tag": "tonsillitis",
+      "patterns": ["tonsillitis"],
+      "responses": ["a very sore throat","difficulty in swallowing or painful swallowing","a scratchy-sounding voice","bad breath","fever","chills","stomach aches","head aches","a stiff neckjaw and neck tenderness due to swollen lymph nodes","tonsils that appear red and swollen tonsils that have white or yellow spots"]
+    },
+    {
+      "tag": "Tularemia",
+      "patterns": ["Tularemia"],
+      "responses": ["a skin ulcer at the point of contact with the infected animal or at the site of a bite","swollen lymph nodes near the skin ulcer (most often in the armpit or groin)","severe headaches","fever","chills","fatigue"]
+    },
+    {
+      "tag": "tuberculosis",
+      "patterns": ["tuberculosis"],
+      "responses": ["unexplained fatigue","fevernight sweat","sappetite" ,"lossweight loss"]
+    },
+    {
+      "tag": "typhus",
+      "patterns": ["typhus"],
+      "responses": ["severe headache","high fever (above 102.2°F)","rash that begins on the back or chest","spreads confusion","stupor and seeming out of touch with reality","low blood pressure (hypotension)","eye sensitivity to bright lights","severe muscle pain"]
+    },
+    {
+      "tag": "Pancreatic Cancer",
+      "patterns": ["Pancreatic Cancer"],
+      "responses": ["loss of appetite","unintentional weight loss","abdominal (stomach) or lower back pain","blood clots","jaundice(yellow skin and eyes)","depression"]
+    },
+    {
+      "tag": "hyperparathyroidism",
+      "patterns": ["hyperparathyroidism"],
+      "responses": ["bone fractures","kidney stones","excessive urination","mental changes such as depression, lethargy, or confusion","nausea","vomitting ","pain in your muscles or abdomen"]
+    },
+    {
+      "tag": "paronychia",
+      "patterns": ["paronychia"],
+      "responses": ["redness of the skin around your nail","tenderness of the skin around your nail","pus-filled blisters","changes in nail shape, color, or texture","detachment of your nail"]
+    }

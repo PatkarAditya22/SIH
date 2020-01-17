@@ -1,0 +1,19 @@
+print("Tell me what to do :")
+print("1.BMI calculation")
+print("2.Health info")
+choice = input()
+chk_bmi = nltk.word_tokenize(choice)
+print(chk_bmi)
+chk = "BMI"
+chk1 = stemmer.stem(chk)
+l = []
+l.append(chk)
+l.append(chk1)
+opt = 2
+for x in chk:
+    if x in chk_bmi:
+        opt = 1
+if opt == 1:
+    bmi()
+if opt == 2:
+    chat()

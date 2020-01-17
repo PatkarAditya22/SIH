@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/mac/PycharmProjects/health/ChatBot/model.tflearn"
+all_model_checkpoint_paths: "/Users/mac/PycharmProjects/health/ChatBot/model.tflearn"

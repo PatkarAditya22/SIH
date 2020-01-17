@@ -1,0 +1,123 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+     "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "hours",
+     "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+     "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+    },
+    {"tag": "payments",
+     "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+     "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+    },
+    {"tag": "opentoday",
+     "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+     "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+    },
+   {"tag": "allergy",
+     "patterns": ["I am suffering from allergy","I feel allergic","I am feeling allergic","I am experiencing allergy","I am going through allergy","I am having allergy","What happens in allergy","I have allergy","I suffer from allergy","What are the symptoms of allergy","What are the signs of allergy","What happens in allergy","What outcome should I expect in allergy","How will I know about allergy","What are the possible precautions one should take for allergy"],
+     "responses": ["nasal congestion","itchy and watery eyes","sneezing","stuffy or runny nose","scratchy throat","sore throat","throat clearing","cough from postnasal drip"]
+    },
+     {"tag": "anemia",
+     "patterns": ["I am suffering from anemia","I feel anemia","I am feeling anemia","I am experiencing anemia","I am going through anemia","I am having anemia","What happens in anemia","I have anemia","I suffer from anemia","What are the symptoms of anemia","What are the signs of anemia","What happens in anemia","What outcome should I expect in anemia","How will I know about anemia","What are the possible precautions one should take for anemia"],
+     "responses": ["Feel tired or lightheaded (sometimes with fainting)","Weakness","Fatigue easily","Have decreased energy","Appear pale","Develop palpitations or rapid heart rate","Experience shortness of breath"]
+    },
+  {"tag": "cold",
+     "patterns": ["I am suffering from cold","I feel cold","I am feeling cold","I am experiencing cold","I am going through cold","I am having cold","What happens in cold","I have cold","I suffer from cold","What are the symptoms of cold","What are the signs of cold","What happens in cold","What outcome should I expect in cold","How will I know about cold","What are the possible precautions one should take for cold"],
+     "responses": ["Headaches", "body aches", "fever","flu-like symptoms","Nasal congestion"," runny nose", "sneezing","Cough","Sore throat"]
+    },
+  {"tag": " asthma",
+     "patterns": ["I am suffering from  asthma","I feel  asthma","I am feeling  asthma","I am experiencing  asthma","I am going through  asthma","I am having  asthma","What happens in  asthma","I have  asthma","I suffer from  asthma","What are the symptoms of  asthma","What are the signs of  asthma","What happens in  asthma","What outcome should I expect in  asthma","How will I know about  asthma","What are the possible precautions one should take for  asthma"],
+     "responses": ["shortness of breath"," chest pain","cough"]
+    },
+  {"tag": " heimers",
+     "patterns": ["I am suffering from  alzheimer's ", "I feel  alzheimer's ", "I am feeling  alzheimer's ", "I am experiencing  alzheimer's ", "I am going through  alzheimer's ", "I am having  alzheimer's ", "What happens in  alzheimer's ", "I have  alzheimer's ", "I suffer from  alzheimer's ", "What are the symptoms of  alzheimer's ", "What are the signs of  alzheimer's ", "What happens in  alzheimer's ", "What outcome should I expect in  alzheimer's ", "How will I know about  alzheimer's ", "What are the possible precautions one should take for  alzheimer's"],
+     "responses": ["loss of orientation (to person, place, or time)","agitation","irritability","quarrelsomeness","diminishing ability to care for myself"]
+    },
+  {
+        "tag":"vaccination",
+        "patterns":["birth","born","new born"],
+        "responses":["Bacillus Calmette–Guérin (BCG)","Oral polio vaccine (OPV 0)","Hepatitis B (Hep – B1)"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["6 weeks","six weeks"],
+        "responses":["Diptheria, Tetanus and Pertussis vaccine (DTwP 1)","Inactivated polio vaccine (IPV 1)","Hepatitis B  (Hep – B2)","Haemophilus influenzae type B (Hib 1)","Rotavirus 1","Pneumococcal conjugate vaccine (PCV 1)"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["10 weeks","ten weeks"],
+        "responses":["Diptheria, Tetanus and Pertussis vaccine (DTwP 2)","Inactivated polio vaccine (IPV 2)","Haemophilus influenzae type B (Hib 2)","Rotavirus 2","Pneumococcal conjugate vaccine (PCV 2)"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["14 weeks","fourteen weeks"],
+        "responses":["Diptheria, Tetanus and Pertussis vaccine (DTwP 3)","Inactivated polio vaccine (IPV 3)","Haemophilus influenzae type B (Hib 3)","Rotavirus 3","Pneumococcal conjugate vaccine (PCV 3)"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["6 months","six months"],
+        "responses":["Oral polio vaccine (OPV 1)","Hepatitis B (Hep – B3)"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["9 months","nine months"],
+        "responses":["Oral polio vaccine (OPV 2)","Measles, Mumps, and Rubella (MMR – 1)"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["9 months","10 months","11 months","nine months","ten months","eleven months"],
+        "responses":["Typhoid Conjugate Vaccine"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["12 months","twelve months"],
+        "responses":["Hepatitis A (Hep – A1)","Influenza (Yearly)"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["15 months","fifteen months"],
+        "responses":["Measles, Mumps, and Rubella (MMR 2)","Varicella 1","PCV booster","Influenza (Yearly)"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["16 months","17 months","18 months","sixteen months","seventeen months"],
+        "responses":["Diphtheria, Perussis, and Tetanus (DTwP B1/DTaP B1)","Inactivated polio vaccine (IPV B1)","Haemophilus influenzae type B (Hib B1)"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["18 months","eighteen months"],
+        "responses":["Hepatitis A (Hep – A2)"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["2 years","two years"],
+        "responses":["Booster of Typhoid Conjugate Vaccine"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns": ["4 years","5 years","6 years","four years","five years","six years"],
+        "responses":["Diphtheria, Perussis, and Tetanus (DTwP B2/DTaP B2)","Oral polio vaccine (OPV 3)","Varicella 2","Measles, Mumps, and Rubella (MMR 3)"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["9 years","10 years","11 years","12 years","13 years","14 years","nine years","ten years","eleven years","twelve years","thirteen years","fourteen years"],
+        "responses":["Tdap","Human Papilloma Virus (HPV 1 & 2)"]
+    },
+    {
+        "tag":"vaccination",
+        "patterns":["15 years","16 years","17 years","18 years","fifteen years","sixteen years","seventeen years","eighteen years"],
+        "responses":["Tdap/Td","Human Papilloma Virus (HPV 1,2,& 3)"]
+    }
+]
+}
