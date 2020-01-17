@@ -68,7 +68,7 @@
   </div>
   <div id="userInput">
     <input id="textInput" type="text" name="msg" placeholder="Message" />
-    <input id="buttonInput" type="submit" value="Send"></button>
+    <input id="buttonInput" type="submit" value="Send"></input>
   </div>
   <script>
     function getBotResponse() {
@@ -79,7 +79,7 @@
       document
         .getElementById("userInput")
         .scrollIntoView({ block: "start", behavior: "smooth" });
-      $.get("/get", { msg: rawText }).done(function(data) {
+      $.get("/chatbot", { msg: rawText }).done(function(data) {
         var botHtml = '<p class="botText"><span>' + data + "</span></p>";
         $("#chatbox").append(botHtml);
         document

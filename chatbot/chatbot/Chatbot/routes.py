@@ -61,9 +61,11 @@ def logout():
     return redirect(url_for('home'))
 
 
-@app.route('/chatbot',methods=['GET', 'POST'])
+@app.route('/chatbot',methods=['GET'])
 @login_required
 def bot():
+    message=request.args.get('msg')
+    print(message)
     return render_template('bot.html')
 
 
