@@ -41,11 +41,12 @@ Enter the link of the localhost server to run the application.
 ## Contributors
 
 * **Parth Shah**
+* **Aditya Patkar**
 * **Saiprasad Duduka**
 * **Priyesh Vakharia**
 * **Saurav Kanegaonkar**
 * **Riya Gupta**
-* **Aditya Patkar**
+
 
 
 ## Acknowledgments
