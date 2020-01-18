@@ -1,0 +1,46 @@
+.   use-- same directory
+..  use-- prev directory
+tree
+ping -c (no of times) gooogle.com    use--send http request to a website
+
+netstat
+
+ifconfig  use-network details
+man (ls/amy command)  use-- kya karta hai woh command
+wget -URL  use-- returns the html file/downloads file/image for entered website path
+mv   use--move/rename within same directory
+cp  use-- copy and rename with other directories as well
+head -n lines filename   use--output first lines
+tail -n lines filename   use--output last lines
+touch  --use -- to make new file
+xkill   use-- to kill any gui element or file or browser   (mostly dont use this)
+ps   use-- list processes
+pkill   use-kill 
+kill -9 firefox   use-- force kill
+
+cat > filename    use-- add text to our file  .. if already some text then its overwritten
+cat >> filename   use-- add text to some text without overwritting
+vim,nano   use--shell based text editors
+
+sudo apt install : linux itself installs from PPA
+sudo apt update : which programs can be updated
+sudo apt upgrade : Downloads the update and upgrades program
+
+CTRL + C : removes processes entirely(preferable)
+Ctrl + Z : only interrupts process
+
+file with .deb extension are low level installation files, Install with dpkg -i filename.deb
+
+DIRECTORIES
+bin// binary commands
+dev// devices, partitions
+home// users directories
+etc // config files for programs
+proc // stores data related to different processes
+usr // shared directory
+
+sudo -s // Become admin, get root access
+useradd username or adduser userName(easier) //Add a user
+user del userName //delete user
+ls -l // list all users and groups with their respective permissions
+d rw-(owner) rw-(group) rw-(other)
